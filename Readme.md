@@ -110,6 +110,7 @@ And you'd better resize two inputs to the same width and height to prevent possi
     ```
 - fid值: 139.49777604999912(style.t7, 60k iterations)
 - Model训练小结本地路径: /home/undergrats/Zeke/fast-neural-style/Fast-neural-style.md
+- 自动驾驶系统生成转角对比数据:/home/undergrats/Zeke/fast-neural-style/steer
 
 ## Arbitrary-Style-Transfer
 TIPs: This framework is designed  based on the same paper as [AdaIN-style](https://github.com/xunhuang1995/AdaIN-style.git). So if you have tried AdaIN, it's a better choice to skip this model:)
@@ -124,6 +125,7 @@ TIPs: This framework is designed  based on the same paper as [AdaIN-style](https
     ```
 - fid值: 196.11790769724644(pre-trained model)
 - Model训练小结本地路径: /home/undergrats/Zeke/arbitrary_style_transfer/Arbitrary-Style-Transfer.pdf
+- 自动驾驶系统生成转角对比数据:/home/undergrats/Zeke/arbitrary_style_transfer/steer
 
 ## texture_nets
 - 项目github地址: [texture_nets](https://github.com/DmitryUlyanov/texture_nets)
@@ -133,6 +135,7 @@ TIPs: This framework is designed  based on the same paper as [AdaIN-style](https
 - 训练时长: 3.3 hours
 - fid值: 88.39498307038224
 - Model训练小结本地路径: 
+- 自动驾驶系统生成转角对比数据:/home/undergrats/dio/texture_nets/teering_angle
 
 -----------------------
 
