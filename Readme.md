@@ -29,6 +29,16 @@
 - fid值: **todo**
 - Model训练小结本地路径: **todo**
 
+## MUNIT
+
+- 项目github地址: [https://github.com/NVlabs/MUNIT](https://github.com/NVlabs/MUNIT)
+- 项目本地路径: /home/undergrats/tzLuo/MUNIT
+- output路径: /home/undergrats/tzLuo/MUNIT/transfer
+- 训练数据集本地路径: /home/undergrats/tzLuo/MUNIT/datasets
+- 训练时长: 100k~200k training iterations per 24 hours
+- fid值: 217.82906651645953 (uda2rain, 200k iterations)
+- Model训练小结本地路径: **todo**
+
 ## CycleGAN
 
 - 项目github地址:  [https://github.com/hardikbansal/CycleGAN](https://github.com/hardikbansal/CycleGAN)
@@ -37,6 +47,8 @@
 - 训练时长: about 24 h (Since the best images appear during the training process, the epoch will be changed to the best number in the following)
 - fid值: 275.04948 with the test results in `/home/undergrats/ywCHENG/CycleGAN/output/imgs/test`
 - Model训练小结本地路径: ` /home/undergrats/ywCHENG/Report.md` along with all the output obtained during Cheng Yiwei's work in `/home/undergrats/ywCHENG/CycleGAN/output/imgs`.
+- 自动驾驶系统生成图片路径: /home/undergrats/ywCHENG/CycleGAN/output/imgs/prediction.zip
+- 自动驾驶系统生成转角数据: /home/undergrats/ywCHENG/CycleGAN/output.csv
 
 ## deep-photo-styletransfer
 
@@ -81,6 +93,49 @@ And you'd better resize two inputs to the same width and height to prevent possi
 - output路径:/home/undergrats/ywCHENG/FastPhotoStyle/results
 - fid: 77.285
 - Model训练小结本地路径: /home/undergrats/ywCHENG/FastPhotoStyle/Guidance_from_CHENG.md
+- 自动驾驶系统生成图片路径: /home/undergrats/ywCHENG/FastPhotoStyle/predic/prediction.zip
+- 自动驾驶系统生成转角数据: /home/undergrats/ywCHENG/FastPhotoStyle/output.csv
+
+## Fast-neural-transfer
+- 项目github地址: : [https://github.com/jcjohnson/fast-neural-style](https://github.com/jcjohnson/fast-neural-style)
+- 项目本地路径: /home/undergrats/Zeke/fast-neural-style
+- 训练数据集本地路径: **content images:** /home/sway007/datasets/udacity_day  
+                    **output images:** /home/undergrats/Zeke/fast-neural-style/output
+
+- style images location: /home/undergrats/Zeke/fast-neural-style/style
+- 训练时长: 
+    ```bash
+    For training model: about 10 minutes everything 2000 iterations
+    For stylize the image: about 2 images (40~60k) every second.
+    ```
+- fid值: 139.49777604999912(style.t7, 60k iterations)
+- Model训练小结本地路径: /home/undergrats/Zeke/fast-neural-style/Fast-neural-style.md
+- 自动驾驶系统生成转角对比数据:/home/undergrats/Zeke/fast-neural-style/steer
+
+## Arbitrary-Style-Transfer
+TIPs: This framework is designed  based on the same paper as [AdaIN-style](https://github.com/xunhuang1995/AdaIN-style.git). So if you have tried AdaIN, it's a better choice to skip this model:)
+- 项目github地址: : [https://github.com/elleryqueenhomels/arbitrary_style_transfer](https://github.com/elleryqueenhomels/arbitrary_style_transfer)
+- 项目本地路径: /home/undergrats/Zeke/arbitrary_style_transfer
+- 训练数据集本地路径: **content images:** /home/sway007/datasets/udacity_day
+                     **output images:**/home/undergrats/Zeke/arbitrary_style_transfer/output
+- style images location: /home/undergrats/Zeke/arbitrary_style_transfer/images/style
+- 训练时长: 
+    ```bash
+    For stylize the image: about 1 images (40~60k) every 5 seconds.
+    ```
+- fid值: 196.11790769724644(pre-trained model)
+- Model训练小结本地路径: /home/undergrats/Zeke/arbitrary_style_transfer/Arbitrary-Style-Transfer.pdf
+- 自动驾驶系统生成转角对比数据:/home/undergrats/Zeke/arbitrary_style_transfer/steer
+
+## texture_nets
+- 项目github地址: [texture_nets](https://github.com/DmitryUlyanov/texture_nets)
+- 项目本地路径: /home/undergrats/dio/texture_nets
+- output路径: /home/undergrats/dio/texture_nets/stylied
+- 训练数据集本地路径: /home/undergrats/dio/texture_nets/train2014_p2, /home/undergrats/dio/texture_nets/val2014
+- 训练时长: 3.3 hours
+- fid值: 88.39498307038224
+- Model训练小结本地路径: 
+- 自动驾驶系统生成转角对比数据:/home/undergrats/dio/texture_nets/teering_angle
 
 -----------------------
 
