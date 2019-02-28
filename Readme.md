@@ -111,4 +111,17 @@ And you'd better resize two inputs to the same width and height to prevent possi
 
 ## UNIT/Style_Transfer Model训练时长
 
-## TODOs
+# 计算FID合成图片输出路径汇总
+
+- MUNIT:  
+  > **_day to rain_**  
+  /home/undergrats/tzLuo/MUNIT/transfer_list/output
+
+- CycleGAN:
+  > **_day to rain_**   
+  /home/undergrats/ywCHENG/CycleGAN/output/imgs/test
+
+- fast-neural-transfer:
+  > **_day to rain_**  
+  /home/undergrats/Kai/AdaIN-style/output/udacity_rain
+
